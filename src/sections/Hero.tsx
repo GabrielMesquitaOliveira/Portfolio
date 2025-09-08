@@ -10,38 +10,40 @@ import SparkleIcon from "@/assets/icons/sparkle.svg";
 export const HeroSection = () => {
   return (
     <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
-      <div
-        className="absolute inset-0 -z-30 opacity-5"
-        style={{ backgroundImage: `url(${grainImage.src})` }}>
+      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
+        <div
+          className="absolute inset-0 -z-30 opacity-5"
+          style={{ backgroundImage: `url(${grainImage.src})` }}>
+        </div>
+        <div className="size-[620px] hero-ring"></div>
+        <div className="size-[820px] hero-ring"></div>
+        <div className="size-[1020px] hero-ring"></div>
+        <div className="size-[1220px] hero-ring"></div>
+        <HeroOrbit rotation={-72} size={920}>
+          <StarIcon className="size-32 text-violet-300" />
+        </HeroOrbit>
+        <HeroOrbit rotation={-72} size={800}>
+          <StarIcon className="size-28 text-violet-300" />
+        </HeroOrbit>
+        <HeroOrbit rotation={20} size={550}>
+          <StarIcon className="size-12 text-violet-300" />
+        </HeroOrbit>
+        <HeroOrbit rotation={98} size={590}>
+          <StarIcon className="size-8 text-violet-300" />
+        </HeroOrbit>
+        <HeroOrbit rotation={-15} size={430}>
+          <SparkleIcon className="size-8 text-violet-300/30" />
+        </HeroOrbit>
+        <HeroOrbit rotation={80} size={440}>
+          <SparkleIcon className="size-5 text-violet-300/30" />
+        </HeroOrbit>
+        <HeroOrbit rotation={180} size={530}>
+          <SparkleIcon className="size-10 text-violet-300/30" />
+        </HeroOrbit>
+        <HeroOrbit rotation={145} size={710}>
+          <SparkleIcon className="size-14 text-violet-300/30" />
+        </HeroOrbit>
       </div>
-      <div className="size-[620px] hero-ring"></div>
-      <div className="size-[820px] hero-ring"></div>
-      <div className="size-[1020px] hero-ring"></div>
-      <div className="size-[1220px] hero-ring"></div>
-      <HeroOrbit rotation={-72} size={920}>
-        <StarIcon className="size-32 text-violet-300" />
-      </HeroOrbit>
-      <HeroOrbit rotation={-72} size={800}>
-        <StarIcon className="size-28 text-violet-300" />
-      </HeroOrbit>
-      <HeroOrbit rotation={20} size={550}>
-        <StarIcon className="size-12 text-violet-300" />
-      </HeroOrbit>
-      <HeroOrbit rotation={98} size={590}>
-        <StarIcon className="size-8 text-violet-300" />
-      </HeroOrbit>
-      <HeroOrbit rotation={-15} size={430}>
-        <SparkleIcon className="size-8 text-violet-300/30" />
-      </HeroOrbit>
-      <HeroOrbit rotation={80} size={440}>
-        <SparkleIcon className="size-5 text-violet-300/30" />
-      </HeroOrbit>
-      <HeroOrbit rotation={180} size={530}>
-        <SparkleIcon className="size-10 text-violet-300/30" />
-      </HeroOrbit>
-      <HeroOrbit rotation={145} size={710}>
-        <SparkleIcon className="size-14 text-violet-300/30" />
-      </HeroOrbit>
       <div className="container">
         <div className="flex flex-col items-center">
           <Image src={memojiComputer} className="size-28" alt="a Person using a computer" />
