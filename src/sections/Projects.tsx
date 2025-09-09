@@ -1,44 +1,44 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import caixaApp from "@/assets/images/caixaapp.png";
+import easyCrawler from "@/assets/images/easycrawler.png";
+import animeList from "@/assets/images/animelist.png";
 
 const portfolioProjects = [
-  {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
-  },
-  {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
-    results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
-    ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
-  },
-  {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
-  },
+ {
+   company: "Caixa Econômica Federal",
+   year: "2024",
+   title: "Caixa App - Mobile Banking Solution",
+   results: [
+     { title: "Desenvolvido para Hackathon Caixa" },
+     { title: "Interface responsiva Android/iOS" },
+     { title: "Gestão completa de empréstimos e pagamentos" },
+   ],
+   link: "https://github.com/GabrielMesquitaOliveira/caixa-app",
+   image: caixaApp, // substitua pela sua imagem
+ },
+ {
+   company: "Open Source",
+   year: "2024",
+   title: "EasyCrawler - Java Web Crawler Library",
+   results: [
+     { title: "Publicado no Maven Central" },
+     { title: "Arquitetura multi-thread de alta performance" },
+     { title: "8 estratégias de busca implementadas" },
+   ],
+   link: "https://github.com/GabrielMesquitaOliveira/EasyCrawler",
+   image: easyCrawler, // substitua pela sua imagem
+ },
+ {
+   company: "Personal Project",
+   year: "2024",
+   title: "AnimeList - API Rating Aggregator",
+   results: [
+     { title: "Integração com 3 APIs (MAL, IMDb, Rotten Tomatoes)" },
+     { title: "Web scraping com Jsoup" },
+     { title: "Performance otimizada com Quarkus" },
+   ],
+   link: "https://github.com/GabrielMesquitaOliveira/animelist",
+   image: animeList, // substitua pela sua imagem
+ },
 ];
 
 export const ProjectsSection = () => {
