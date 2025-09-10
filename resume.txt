@@ -1,0 +1,252 @@
+Gabriel Mesquita Oliveira
+Senior Software Engineer & Tech Lead
+gabrielmesquita0503@gmail.com |
+LinkedIn |
+
+GitHub |
+
++55 61 98353-6287 |
+
+Brasília, Brasil
+
+Portfolio
+
+Professional Summary
+Senior Full Stack Developer with 5+ years building scalable applications from legacy mainframe systems
+to modern cloud solutions. Specialized in banking & fintech with proven expertise leading technical
+teams and modernizing mission-critical systems serving millions of users daily.
+Core Expertise: Legacy System Modernization • Microservices Architecture • Team Leadership • Banking
+Applications
+
+Work Experience
+Full Stack Developer | Caixa Econômica Federal
+Jan 2025 - Present
+Mission-critical banking systems developer in the Payment Methods sector, Credit Cards community,
+working across multiple agile squads. Specializing in legacy system modernization by migrating COBOL
+mainframe applications to Java Quarkus microservices while maintaining and developing Angular
+applications for internal branch operations. Currently leading the development of new branch agency
+customer service systems and debt collection platforms, balancing 50% legacy modernization with 50%
+modern application development.
+Key Responsibilities:
+• Migrate mission-critical COBOL banking systems to modern Java Quarkus microservices architecture
+• Develop and maintain internal Angular applications for branch agency operations
+• Build and integrate APIs for payment systems, debt collection, and renegotiation platforms
+• Collaborate with business analysts and stakeholders in agile planning and code review processes
+• Support branch agency systems and credit card processing operations serving millions of daily users
+Key Achievements:
+
+• System Reliability: Maintained 99.9% uptime on applications processing millions of daily
+transactions
+• Performance Excellence: Improved batch processing efficiency by 40% through COBOL
+optimization and DB2 tuning
+• Modern Integration: Successfully connected legacy mainframe systems with Angular/Java
+microservices
+• Mobile Innovation: Developed secure Android banking app with biometric authentication and SSL
+pinning
+• DevOps Leadership: Reduced deployment time by 60% implementing CI/CD across multi-platform
+applications
+Tech Stack: COBOL, Angular, Quarkus, Kotlin, DB2, Android Security
+
+Full Stack Developer | Qintess
+Aug 2024 - Dec 2024
+Full stack developer in a 10-member development team focused on creating and enhancing internal
+enterprise frameworks using Java, with diverse technology stack including Python, Node.js, React, and
+Docker. Specialized in developing custom modules and solutions based on company framework
+requirements.
+Key Responsibilities:
+• Develop custom modules for Qintess internal enterprise frameworks using Java Spring Boot
+• Build specialized solutions including multi-threaded web crawlers/scrapers for data extraction
+• Create and maintain Angular frontend applications integrated with Java backend services
+• Collaborate with development team on diverse projects spanning multiple technology stacks
+• Provide technical guidance and support to junior developers when needed
+• Work on framework architecture design and hands-on development implementation
+Key Achievements:
+
+• Framework Development: Created reusable internal frameworks adopted by 8+ development
+teams, improving code standardization and reducing development time by 30%
+• API Architecture: Designed and implemented RESTful microservices serving 100K+ requests daily
+with 99.5% availability
+• Technical Innovation: Developed multi-threaded web crawler/scraper module enhancing data
+processing capabilities
+• Quality Assurance: Implemented comprehensive testing strategies achieving 90%+ code coverage
+across all projects
+Tech Stack: Java Spring Boot, Angular, Python, Node.js, React, Docker, RESTful APIs, Microservices
+
+Full Stack Developer | Matriz One
+Jan 2023 - Mar 2024
+Full stack developer working on two main enterprise platforms: Flex Ocupacional, a nationwide
+occupational health and safety software, and MatrizOne EAD, an e-learning platform for corporate
+training. Specialized in Brazilian government API integrations and containerized solutions.
+Key Responsibilities:
+• Develop and maintain Flex Ocupacional platform serving occupational health management across
+Brazil
+• Build extensive integrations with Brazilian government APIs (eSocial, ETV) for medical certificate
+validation and workplace accident reporting
+• Create and enhance MatrizOne EAD platform enabling corporate clients to train their employees
+through online courses
+• Design and implement RESTful APIs and microservices using PHP Laravel and Node.js Express
+• Develop responsive frontend interfaces using Vue.js and React with MySQL database integration
+• Implement Docker containerization for improved deployment efficiency and system reliability
+Key Achievements:
+
+• Platform Leadership: Spearheaded development of occupational health management system
+serving 50+ enterprise clients in workplace safety compliance
+• Government Integration: Successfully integrated with Brazilian government APIs (eSocial, ETV)
+ensuring 100% compliance for automated reporting
+• Containerization: Architected Docker-based infrastructure reducing deployment time by 70% and
+improving system reliability
+• End-to-End Solutions: Delivered complete solutions from database design to user experience,
+resulting in 95% client satisfaction rate
+Tech Stack: PHP/Laravel, Node.js/Express, Vue.js, React, Docker, MySQL, Brazilian Government APIs, Jest
+
+Frontend Engineer | UI/UX Designer | Syscoin Space
+Jan 2022 - Dec 2022
+Frontend engineer, UI/UX designer, and web designer specializing in high-performance e-commerce
+development and SEO optimization across multiple platforms. Certified in major e-commerce platforms
+including WooCommerce, Jet, Linx, Tray, VTEX, Magento, and Shopify, working with clients ranging from
+high-traffic Instagram stores to luxury jewelry retailers.
+Key Responsibilities:
+• Develop and optimize SEO strategies for client e-commerce websites across multiple platforms
+• Build high-performance e-commerce solutions using PHP, JavaScript, React, Node.js, Blade, and
+Twig
+• Design responsive UI/UX interfaces optimized for conversion and mobile performance
+• Customize and develop solutions for WooCommerce, Jet, Linx, Tray, VTEX, Magento, and Shopify
+platforms
+• Implement Core Web Vitals optimization and performance enhancement strategies
+• Create custom e-commerce themes and functionality based on client business requirements
+Key Achievements:
+
+• High-Traffic E-commerce: Developed pirulitoloja.com.br on Jet platform for client with 3M+
+Instagram followers, achieving exceptional performance metrics
+• Luxury Market Success: Built pedrart.com.br, the exclusive Rolex retailer website in Brasília, focusing
+on premium user experience
+• Performance Excellence: Improved page load speeds by 50% and mobile conversion rates by 25%
+across 20+ online stores
+• SEO Leadership: Implemented Core Web Vitals optimization resulting in average 40% improvement
+in search rankings across client portfolio
+Tech Stack: PHP, JavaScript, React, Node.js, Blade, Twig, WooCommerce, Shopify, VTEX, Magento, Jet,
+Linx, Tray
+
+PHP WordPress Developer | Freelancer | GetNinjas
+Jan 2020 - Jan 2022
+Independent freelance developer specializing in custom WordPress development and institutional
+website creation. Working through the GetNinjas platform to deliver bespoke e-commerce solutions and
+corporate websites with secure payment integrations and PCI compliance standards.
+Key Responsibilities:
+• Develop custom WordPress websites and institutional sites for diverse clients across multiple
+industries
+• Build bespoke e-commerce platforms from scratch with complete payment gateway integrations
+• Implement secure payment processing systems ensuring PCI compliance across all projects
+• Create custom WordPress themes and plugins tailored to specific client business requirements
+• Customize and enhance existing e-commerce platforms including WooCommerce, Magento,
+Shopify, and OpenCart
+• Provide ongoing maintenance and technical support for client websites and e-commerce solutions
+Key Achievements:
+
+• Custom Development: Built 15+ bespoke e-commerce platforms from scratch with complete
+payment integration
+• Security Excellence: Achieved PCI compliance across all projects with zero security incidents over 2
+years
+• Multi-Platform Expertise: Delivered customizations for WooCommerce, Magento, Shopify, and
+OpenCart platforms
+• Client Satisfaction: Maintained high client retention rate through reliable delivery and ongoing
+support
+Tech Stack: PHP, JavaScript, React, Node.js, WordPress, WooCommerce, Payment Gateways, Ecommerce Platforms
+
+Technical Expertise
+Programming Languages
+Java • JavaScript • TypeScript • COBOL • Kotlin • PHP • Python • SQL
+
+Frontend Development
+React.js • Angular • Vue.js • Next.js • Jetpack Compose • PWA • Tailwind CSS
+
+Backend & APIs
+Spring Boot • Quarkus • Node.js • Laravel • RESTful APIs • GraphQL • Microservices
+
+Mobile Development
+Android (Kotlin) • MVVM Architecture • Security Implementation • Biometric Auth
+
+Database & Storage
+MySQL • PostgreSQL • MongoDB • DB2 • Redis • Oracle • Query Optimization
+
+Cloud & DevOps
+AWS (EC2, S3, RDS, Lambda) • Docker • Kubernetes • CI/CD • Jenkins • Terraform
+
+Mainframe Technologies
+COBOL • TSO/ISPF • Endevor • CICS • Batch Processing • Legacy System Integration
+
+Leadership & Impact
+Team Leadership Experience
+
+• Mentorship: Successfully mentored 4+ junior developers in modern development practices
+• Standards Implementation: Established coding standards adopted across multiple development
+teams
+• Technical Decision Making: Led architectural decisions for mission-critical banking applications
+• Cross-functional Collaboration: Coordinated with business analysts, QA, and DevOps teams in agile
+environments
+
+Key Projects & Achievements
+• Legacy Modernization: Led modernization of mainframe COBOL systems serving millions of users
+• Framework Development: Created reusable internal frameworks reducing development time by
+30%
+• Mobile Banking Innovation: Developed secure Android banking solutions with advanced security
+features
+• Government Compliance: Delivered 100% compliant systems for Brazilian regulatory requirements
+
+Education & Certifications
+Education
+Bachelor's Degree in Systems Analysis | Faculdade Brasília | Expected Dec 2025
+Technical Web Development | SENAI | Dec 2020
+
+Certifications
+Banking & Enterprise Development (2025)
+• CAIXAVERSO | Back-end Java Developer | Level III - Ada Tech (11h)
+• Software Architecture | Caixa - Ada Tech (12h)
+• Back-end in Java | Caixa - Ada Tech (13h)
+• Front-end in JavaScript | Caixa - Ada Tech (16h)
+• DevOps | Caixa - Ada Tech (14h)
+• IT Onboarding - Ada Tech (162h)
+IBM Mainframe Expertise (2025)
+• IBM Mainframe Developer Professional Certificate - Coursera
+• IBM z/OS Mainframe Practitioner Professional Certificate - Coursera
+• COBOL Programming with VSCode - Coursera
+
+Modern Frontend & Full Stack (2023-2025)
+• Angular 17 Specialization - Coursera (3 courses)
+• Santander Bootcamp 2023 - Fullstack Java+Angular - DIO (115h)
+• Santander 2024 - Backend with Java - DIO (87h)
+• Claro - Java with Spring Boot - DIO (75h)
+• JavaScript Evolution Bootcamp - DIO (104h)
+Advanced Development & Architecture (2025)
+• System Design - Ada Tech (4h)
+• Clean Architecture - Ada Tech (3h)
+• Java Update: from 8 to 21 - Ada Tech (2h)
+• Oracle Complete Program - Alura (332h, 7 formations)
+Security & AI Development (2024-2025)
+• Security Fundamentals and Secure Development - Ada Tech (8h)
+• Information Security - Ada Tech (3h)
+• Python AI Backend Developer - DIO (67h)
+• Nexa Bootcamp - Machine Learning for Beginners on AWS - DIO (10h)
+Web Development Fundamentals
+• WordPress Development - Udemy (24h)
+• Master Laravel 11 - Udemy (30h)
+• Complete PHP Web Development - Udemy (115h)
+• Complete Modern Web Course with JavaScript - Udemy (90h)
+
+Personal Projects
+Open Source Contributions
+• COBOL-Modern-Bridge - Library for integrating COBOL with modern Java applications
+• Brazilian-Gov-APIs - SDK for Brazilian government API integrations (eSocial, ETV)
+• Banking-Security-Utils - Android security utilities for financial applications
+
+View all projects: GitHub
+
+Languages & Additional Skills
+Languages: Portuguese (Native) • English (Advanced Professional)
+Professional Strengths:
+• Technical Leadership: Proven ability to lead teams and establish development standards
+• Problem Solving: Expert in bridging legacy systems with modern architecture
+• Adaptability: Quick learner across diverse technology stacks and business domains
+• Communication: Strong collaboration skills in agile, cross-functional environments
+
+
