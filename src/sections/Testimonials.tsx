@@ -1,42 +1,81 @@
-import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
-import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
-import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
-import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
-import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
+import { TestimonialsColumn } from "@/components/blocks/testimonials-columns-1";
+import SectionHeading from "@/components/SectionHeading";
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
-    text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
-    avatar: memojiAvatar1,
+    text: "Gabriel's leadership in modernizing legacy COBOL systems to modern Java microservices has ensured 99.9% uptime for millions of users.",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    name: "Team Lead",
+    role: "Caixa Econômica Federal",
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
-    avatar: memojiAvatar2,
+    text: "His framework development skills created reusable solutions adopted by 8+ teams, reducing development time by 30%.",
+    image: "https://randomuser.me/api/portraits/women/2.jpg",
+    name: "Senior Developer",
+    role: "Qintess",
   },
   {
-    name: "Daniel White",
-    position: "CEO @ InnovateCo",
-    text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
-    avatar: memojiAvatar3,
+    text: "Gabriel's expertise in government API integrations achieved 100% compliance for automated reporting systems.",
+    image: "https://randomuser.me/api/portraits/men/3.jpg",
+    name: "Project Manager",
+    role: "Matriz One",
   },
   {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
-    avatar: memojiAvatar4,
+    text: "His frontend development improved page load speeds by 50% and mobile conversion rates by 25% across e-commerce platforms.",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Client",
+    role: "Syscoin Space",
   },
   {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-    avatar: memojiAvatar5,
+    text: "Gabriel's secure e-commerce solutions maintained PCI compliance with zero security incidents over 2 years.",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Freelance Client",
+    role: "GetNinjas",
+  },
+  {
+    text: "His mobile banking app with biometric authentication and SSL pinning enhanced security for financial applications.",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Mobile Lead",
+    role: "Caixa Econômica Federal",
+  },
+  {
+    text: "Gabriel's containerization with Docker reduced deployment time by 70% and improved system reliability.",
+    image: "https://randomuser.me/api/portraits/men/7.jpg",
+    name: "DevOps Engineer",
+    role: "Matriz One",
+  },
+  {
+    text: "His mentorship of junior developers and establishment of coding standards improved team productivity.",
+    image: "https://randomuser.me/api/portraits/women/8.jpg",
+    name: "Mentor",
+    role: "Qintess",
+  },
+  {
+    text: "Gabriel's technical versatility across Java, COBOL, Python, and modern frameworks bridges legacy and cloud solutions.",
+    image: "https://randomuser.me/api/portraits/men/9.jpg",
+    name: "Full Stack Architect",
+    role: "Various Companies",
   },
 ];
 
-export const TestimonialsSection = () => {
-  return <div>Testimonials Section</div>;
+const firstColumn = testimonials.slice(0, 3);
+const secondColumn = testimonials.slice(3, 6);
+const thirdColumn = testimonials.slice(6, 9);
+
+
+const Testimonials = () => {
+  return (
+    <section className="my-20 relative">
+      <div className="container z-10 mx-auto">
+        <SectionHeading badge="Work" title="My Work Experience" description="A timeline of my professional journey." />
+        <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[740px] overflow-hidden">
+          <TestimonialsColumn testimonials={firstColumn} duration={15} />
+          <TestimonialsColumn testimonials={secondColumn} className="hidden md:block" duration={19} />
+          <TestimonialsColumn testimonials={thirdColumn} className="hidden lg:block" duration={17} />
+        </div>
+      </div>
+    </section>
+  );
 };
+
+export default Testimonials;
