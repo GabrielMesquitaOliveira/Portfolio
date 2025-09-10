@@ -4,6 +4,7 @@ import animeList from "@/assets/images/animelist.png";
 import Image from 'next/image';
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
+import SectionHeading from "@/components/SectionHeading";
 
 const portfolioProjects = [
   {
@@ -48,17 +49,11 @@ export const ProjectsSection = () => {
   return (
     <section className="pb-16 ">
       <div className="container">
-        <div className="flex justify-center">
-          <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-violet-300 to-sky-400 bg-clip-text text-transparent text-center">
-            Real-World Results
-          </p>
-        </div>
-        <h2 className="font-serif text-3xl md:text-5xl text-center mt-6 ">
-          Featured Projects
-        </h2>
-        <p className="text-center md:text-lg lg:text-xl max-w-md mx-auto text-white/60 mt-4">
-          See How I Transformed Ideas into Reality
-        </p>
+        <SectionHeading
+          badge="Real-World Results"
+          title="Featured Projects"
+          description="See How I Transformed Ideas into Reality"
+        />
         <div className="flex flex-col mt-10 md:mt-20 gap-14">
           {portfolioProjects.map((project) => (
             <div key={project.title} className="bg-gray-800 rounded-3xl relative z-0 overflow-hidden after:content-[''] after:z-10 after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 p-8 after:pointer-events-none md:pt-12 lg:p-16 lg:px-16">
