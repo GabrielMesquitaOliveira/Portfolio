@@ -63,12 +63,12 @@ const secondColumn = testimonials.slice(3, 6);
 const thirdColumn = testimonials.slice(6, 9);
 
 
-const Testimonials = () => {
+const TestimonialsSection = () => {
   return (
     <section className="my-20 relative">
       <div className="container z-10 mx-auto">
-        <SectionHeading badge="Work" title="My Work Experience" description="A timeline of my professional journey." />
-        <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[740px] overflow-hidden">
+        <SectionHeading badge="Testimonials" title="Professional Achievements" description="Key accomplishments and recognitions from my career." />
+        <div className="flex justify-center gap-6 mt-10 md:mt-20 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[740px] overflow-hidden">
           <TestimonialsColumn testimonials={firstColumn} duration={15} />
           <TestimonialsColumn testimonials={secondColumn} className="hidden md:block" duration={19} />
           <TestimonialsColumn testimonials={thirdColumn} className="hidden lg:block" duration={17} />
@@ -78,4 +78,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default TestimonialsSection;
