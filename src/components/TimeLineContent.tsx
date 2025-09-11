@@ -8,7 +8,7 @@ interface TimeLineContentProps {
 export const TimeLineContent = ({ data }: { data: TimeLineContentProps }) => {
     return (
         <div>
-            <p className="text-white/60 text-xs md:text-sm font-normal mb-8">
+            <p className="text-white/60 text-md md:text-xl font-normal mb-8">
                 {data.description}
             </p>
             <div className="flex flex-wrap justify-center justify-items-center gap-8 bg-gray-800 p-4 rounded-md border border-white/20">
