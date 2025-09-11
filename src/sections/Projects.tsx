@@ -12,36 +12,36 @@ const portfolioProjects = [
     year: "2025",
     title: "Caixa App - Mobile Banking Solution",
     results: [
-      { title: "Desenvolvido para Hackathon Caixa" },
-      { title: "Interface responsiva Android/iOS" },
-      { title: "Gestão completa de empréstimos e pagamentos" },
+      { title: "Developed for Caixa Hackathon" },
+      { title: "Responsive Android/iOS interface" },
+      { title: "Complete loan and payment management" },
     ],
     link: "https://github.com/GabrielMesquitaOliveira/caixa-app",
-    image: caixaApp, // substitua pela sua imagem
+    image: caixaApp,
   },
   {
     company: "Open Source",
     year: "2025",
     title: "EasyCrawler - Java Web Crawler Library",
     results: [
-      { title: "Publicado no Maven Central" },
-      { title: "Arquitetura multi-thread de alta performance" },
-      { title: "8 estratégias de busca implementadas" },
+      { title: "Published on Maven Central" },
+      { title: "High-performance multi-threaded architecture" },
+      { title: "8 search strategies implemented" },
     ],
     link: "https://github.com/GabrielMesquitaOliveira/EasyCrawler",
-    image: easyCrawler, // substitua pela sua imagem
+    image: easyCrawler,
   },
   {
     company: "Personal Project",
     year: "2025",
     title: "AnimeList - API Rating Aggregator",
     results: [
-      { title: "Integração com 3 APIs (MAL, IMDb, Rotten Tomatoes)" },
-      { title: "Web scraping com Jsoup" },
-      { title: "Performance otimizada com Quarkus" },
+      { title: "Integration with 3 APIs (MAL, IMDb, Rotten Tomatoes)" },
+      { title: "Web scraping with Jsoup" },
+      { title: "Optimized performance with Quarkus" },
     ],
     link: "https://github.com/GabrielMesquitaOliveira/animelist",
-    image: animeList, // substitua pela sua imagem
+    image: animeList,
   },
 ];
 

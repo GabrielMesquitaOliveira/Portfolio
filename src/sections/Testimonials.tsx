@@ -67,7 +67,7 @@ const TestimonialsSection = () => {
   return (
     <section className="my-20 relative">
       <div className="container z-10 mx-auto">
-        <SectionHeading badge="Testimonials" title="Professional Achievements" description="Key accomplishments and recognitions from my career." />
+        <SectionHeading badge="WHAT MY CLIENTS SAY" title="Professional Achievements" description="Key accomplishments and recognitions from my career." />
         <div className="flex justify-center gap-6 mt-10 md:mt-20 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[740px] overflow-hidden">
           <TestimonialsColumn testimonials={firstColumn} duration={15} />
           <TestimonialsColumn testimonials={secondColumn} className="hidden md:block" duration={19} />

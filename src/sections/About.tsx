@@ -108,8 +108,8 @@ export function AboutSection() {
     <section className="pb-16">
       <div className="container">
         <SectionHeading
-          badge="About"
-          title="About Me"
+          badge="About Me"
+          title="My Key Strongs"
           description="Learn more about my background, skills, and expertise."
         />
         <BentoGrid className="mt-10 md:mt-20">
