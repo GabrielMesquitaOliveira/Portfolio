@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-import memojiComputer from "@/assets/images/memoji-computer.png";
+import memojiComputer from "@/assets/images/ilustration.png";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import StarIcon from "@/assets/icons/star.svg";
