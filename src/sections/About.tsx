@@ -73,7 +73,7 @@ const features = [
     Icon: BellIcon,
     name: "Strong communication",
     description: "Effective communication skills for better collaboration and understanding.",
-    href: "#",
+    href: "mailto:gabriel.oiveira@df.estudante.senai.br",
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
     background: (
@@ -84,7 +84,7 @@ const features = [
     Icon: Share2Icon,
     name: "Skills & Tools",
     description: "Proficient in various programming languages, frameworks, and development tools.",
-    href: "#",
+    href: "mailto:gabriel.oiveira@df.estudante.senai.br",
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
     background: (
@@ -96,7 +96,7 @@ const features = [
     name: "Global Professional",
     description: "International experience and global collaboration skills.",
     className: "col-span-3 lg:col-span-1",
-    href: "#",
+    href: "mailto:gabriel.oiveira@df.estudante.senai.br",
     cta: "Learn more",
     background: (
       <Globe className="absolute right-2 top-4 h-[300px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />

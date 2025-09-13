@@ -17,7 +17,7 @@ export const ContactSection = () => {
               </p>
             </div>
             <div>
-              <a href="mailto:contact@example.com">
+              <a href="mailto:gabriel.oiveira@df.estudante.senai.br">
                 <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 mt-8 w-max md:mt-0">
                   <span className="font-semibold">Contact Me</span>
                   <ArrowUpRightIcon className="size-4" />

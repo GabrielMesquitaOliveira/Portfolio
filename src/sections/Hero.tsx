@@ -48,7 +48,10 @@ export const HeroSection = () => {
         <div className="flex flex-col items-center">
           <Image src={memojiComputer} className="size-28" alt="a Person using a computer" />
           <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-full">
-            <div className="bg-green-500 size-2.5 rounded-full"></div>
+            <div className="bg-green-500 size-2.5 rounded-full relative">
+              <div className="bg-green-500 size-2.5 rounded-full inset-0 animate-ping">
+              </div>
+            </div>
             <div className="text-sm font-medium">Avaiable for new projects</div>
           </div>
         </div>
@@ -62,12 +65,12 @@ export const HeroSection = () => {
           <a href="#projects">
             <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl cursor-pointer">
               <span className="font-semibold">Explore my Work</span>
-              <ArrowDown className="size-4" />
+              <ArrowDown className="size-4 animate-bounce" />
             </button>
           </a>
           <a href="mailto:gabriel.oiveira@df.estudante.senai.br">
             <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl cursor-pointer">
-              <span>👋</span>
+              <span className="wave">👋</span>
               <span className="font-semibold">Let's Connect</span>
             </button>
           </a>
