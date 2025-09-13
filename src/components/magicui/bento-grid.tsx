@@ -17,6 +17,7 @@ interface BentoCardProps extends ComponentPropsWithoutRef<"div"> {
   description: string;
   href: string;
   cta: string;
+  download?: string;
 }
 
 const BentoGrid = ({ children, className, ...props }: BentoGridProps) => {
@@ -41,6 +42,7 @@ const BentoCard = ({
   description,
   href,
   cta,
+  download,
   ...props
 }: BentoCardProps) => (
   <div
@@ -74,7 +76,7 @@ const BentoCard = ({
           asChild
           className="bg-white text-gray-900 h-12 rounded-xl font-semibold inline-flex items-center justify-center gap-2 pointer-events-auto"
         >
-          <a href={href}>
+          <a href={href} download={download}>
             {cta}
             <ArrowRightIcon className="h-4 w-4 rtl:rotate-180" />
           </a>
@@ -93,7 +95,7 @@ const BentoCard = ({
         size="sm"
         className="pointer-events-auto p-0"
       >
-        <a href={href} className="text-white">
+        <a href={href} download={download} className="text-white">
           {cta}
           <ArrowRightIcon className="ms-2 h-4 w-4 rtl:rotate-180" />
         </a>

@@ -47,7 +47,7 @@ const portfolioProjects = [
 
 export const ProjectsSection = () => {
   return (
-    <section className="pb-16 ">
+    <section id="projects" className="pb-16 ">
       <div className="container">
         <SectionHeading
           badge="Real-World Results"

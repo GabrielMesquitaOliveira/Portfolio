@@ -3,7 +3,7 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
 import grainImage from "@/assets/images/grain.jpg"
 export const ContactSection = () => {
   return (
-    <div className="py-16 pt-14">
+    <section id="contact" className="py-16 pt-14">
       <div className="container">
         <div className="bg-gradient-to-r from-violet-400 to-sky-400 py-8 px-10 rounded-3xl text-center relative overflow-hidden z-0 text-gray-900">
           <div className="abosolute inset-0 opacity-5 -z-10" style={{
@@ -17,14 +17,16 @@ export const ContactSection = () => {
               </p>
             </div>
             <div>
-              <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 mt-8 w-max md:mt-0">
-                <span className="font-semibold">Contatc Me</span>
-                <ArrowUpRightIcon className="size-4" />
-              </button>
+              <a href="mailto:contact@example.com">
+                <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 mt-8 w-max md:mt-0">
+                  <span className="font-semibold">Contact Me</span>
+                  <ArrowUpRightIcon className="size-4" />
+                </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

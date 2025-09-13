@@ -39,8 +39,9 @@ const features = [
     Icon: FileTextIcon,
     name: "Resume Documents",
     description: "Explore my resume and related professional documents.",
-    href: "#",
+    href: "/resume.pdf",
     cta: "Download my resume",
+    download: "resume.pdf",
     className: "col-span-3 lg:col-span-1",
     background: (
       <Marquee
@@ -105,7 +106,7 @@ const features = [
 
 export function AboutSection() {
   return (
-    <section className="pb-16">
+    <section id="about" className="pb-16">
       <div className="container">
         <SectionHeading
           badge="About Me"

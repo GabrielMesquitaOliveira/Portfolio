@@ -52,9 +52,9 @@ const data = [
 
 export const ExperienceSection = () => {
   return (
-    <div className="min-h-screen container">
+    <section id="experience" className="min-h-screen container">
       <SectionHeading badge="Work" title="My Work Experience" description="A timeline of my professional journey." />
       <Timeline data={data} />
-    </div>
+    </section>
   );
 };
