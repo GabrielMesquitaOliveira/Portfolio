@@ -44,31 +44,37 @@ export const HeroSection = () => {
           <SparkleIcon className="size-14 text-violet-300/30" />
         </HeroOrbit>
       </div>
-      <div className="container">
-        <div className="flex flex-col items-center">
-          <Image src={memojiComputer} className="size-28" alt="a Person using a computer" />
-          <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-full">
+      <div className="container relative z-50">
+        <div className="flex flex-col items-center animate-in fade-in slide-in-from-top-4 duration-1000">
+          <Image src={memojiComputer} className="size-28 animate-in fade-in slide-in-from-top-4 duration-1000 delay-200" alt="a Person using a computer" />
+          <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-full animate-in fade-in slide-in-from-left-4 duration-1000 delay-400">
             <div className="bg-green-500 size-2.5 rounded-full"></div>
             <div className="text-sm font-medium">Avaiable for new projects</div>
           </div>
         </div>
-        <div className="max-w-lg mx-auto">
+        <div className="max-w-lg mx-auto animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-600">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wider">Building Exceptional Software</h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            Crafting seamless digital experiences with expertise in React, Next.js, and Tailwind CSS.
+            Senior Full Stack Developer with 5+ years building scalable applications from legacy mainframe systems to modern cloud solutions. Specialized in banking & fintech with proven expertise leading technical teams and modernizing mission-critical systems serving millions of users daily.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
+        <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-800">
           <a href="#projects">
-            <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl ">
+            <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl cursor-pointer">
               <span className="font-semibold">Explore my Work</span>
               <ArrowDown className="size-4" />
             </button>
           </a>
-          <a href="#contact">
-            <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
+          <a href="mailto:gabriel.oiveira@df.estudante.senai.br">
+            <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl cursor-pointer">
               <span>👋</span>
               <span className="font-semibold">Let's Connect</span>
+            </button>
+          </a>
+          <a href="https://www.linkedin.com/in/gabriel-mesquita-oliveira-4910372a1/" target="_blank" rel="noopener noreferrer">
+            <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl cursor-pointer">
+              <span>💼</span>
+              <span className="font-semibold">LinkedIn</span>
             </button>
           </a>
         </div>
